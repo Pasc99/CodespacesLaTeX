@@ -48,15 +48,14 @@
 				"latex-workshop.message.warning.show": false,
 				"latex-workshop.latex.build.forceRecipeUsage": false,
 				"latex-workshop.synctex.afterBuild.enabled": true,
-				"latex-workshop.latex.autoClean.run": "onFailed",
+				"latex-workshop.latex.autoClean.run": "onBuilt",
 				"latex-workshop.latex.clean.subfolder.enabled": true,
 				"latex-workshop.latex.recipe.default": "lastUsed",
 				"latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
 				"latex-workshop.view.pdf.viewer": "tab",
 				"latex-workshop.latex.pdfWatch.delay": 500,
-				"latex-workshop.latex.watch.delay": 500,
 				"latex-workshop.view.pdf.tab.openDelay": 1500,
-				"latex-workshop.codespaces.portforwarding.openDelay": 20000,
+				"latex-workshop.codespaces.portforwarding.openDelay": 2000,
 				// 次の３つの行をコメントアウトして、PDFのダークモードを有効にする。
 				//"latex-workshop.view.pdf.color.dark.pageColorsBackground": "#171717", // For Dark Viewer
 				//"latex-workshop.view.pdf.color.dark.pageColorsForeground": "#FFFFFF", // For Dark Viewer

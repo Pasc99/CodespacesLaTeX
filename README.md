@@ -29,6 +29,7 @@ Codespaces は GitHub が提供するクラウド開発環境です。GitHub に
 1. リポジトリの右上の`Use this template`で，
    
    `Create a new repository`または`Open in a codespace`を選択します。
+      ![template](/images/use-template.gif)
 2. 任意のリポジトリ名を入力し，**Create Fork / Create repository from template**をクリックします。
 3. **<> Code** > **CodeSpaces** > **Create Codespace on Main**を選択し，インストールは始めます。
    
@@ -37,7 +38,7 @@ Codespaces は GitHub が提供するクラウド開発環境です。GitHub に
 5. デフォルトのビルドで`.latexmkrc`は自動的に読み込まれていますので，設定を変更したい場合は直接に`./.latexmkrc`を編集してください。PDFファイルは`./OUT`のディレクトリに出力されます。
    ### Troubleshooting
    - デフォルトのビルドが上手くいかない場合，下記のようにレシピの`Build with .latexmkrc`をクリックしてビルドしてください。
-   　 ![latexmkrc](/images/latex.gif)
+   　 ![latexmkrc](/images/latexmkrc.gif)
    -  ローカルのVisual Studio CodeでCodespaceを使うとき, ローカルのLaTeX Workshopとの設定が衝突してしまうことでレシピが実行されないことがあります。その場合は，VS Codeの`settings.json`に設定が衝突しないように設定してください。
 6. texファイルの先頭にマジックコメントを入れることはできますが，デフォルトのレシピを無視して優先的に実行されるので，やっていることがわからない方にはおすすめしません。参照:[マジックコメント](https://texwiki.texjp.org/?Visual%20Studio%20Code%2FLaTeX#b7b858ba)。
 
