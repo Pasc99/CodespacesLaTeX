@@ -158,8 +158,9 @@
 						]
 					}
 				],
-				"latex-workshop.latexindent.path": "latexindent",
-				"latex-workshop.latexindent.args": [
+				"latex-workshop.formatting.latex": "latexindent",
+				"latex-workshop.formatting.latexindent.path": "latexindent",
+				"latex-workshop.formatting.latexindent.args": [
 					"-c",
 					"%DIR%/",
 					"%TMPFILE%",
@@ -167,19 +168,21 @@
 					"%DIR%/latexindent.yaml",
 					"-r"
 				],
-				// 次をコメントアウトして、github　copilotを無効にする。
-				"github.copilot.enable": {
-					"*": true,
-					"yaml": false,
-					"plaintext": false,
-					"markdown": true,
-					"latex": true,
-					"bibtex": false
-				}
+				"editor.formatOnSave": true,
+				"editor.defaultFormatter": "James-Yu.latex-workshop"
+				// 次をコメントアウトして、github　copilotを有効にする。
+				// "github.copilot.enable": {
+				// 	"*": true,
+				// 	"yaml": false,
+				// 	"plaintext": false,
+				// 	"markdown": true,
+				// 	"latex": true,
+				// 	"bibtex": false
+				// }
 			},
 			"extensions": [
 				"James-Yu.latex-workshop",
-				"GitHub.copilot",	// この行をコメントアウトして、github copilotを無効にする。
+				//"GitHub.copilot",	// この行をコメントアウトして、github copilotを有効にする。
 				"MS-CEINTL.vscode-language-pack-ja"
 			]
 		}

@@ -1,0 +1,30 @@
+\UseRawInputEncoding
+\documentclass[12pt]{jreport}
+\usepackage[dvipdfmx]{graphicx}
+
+\begin{document}
+  \chapter{はじめに}
+    \section{概要}
+      これの \LaTeX ファイルは テスト文章です。
+		\section{環境}
+			\begin{itemize}
+				\item Codespaces/devcontainer
+				\item Visual Studio Code
+				\item TeXLive
+				\item LaTeX Workshop
+			\end{itemize}
+		\section{\LaTeX indentの動作確認}
+			\begin{itemize}
+				\item ()への変換: （（（（））））
+				\item , への変換: ，，，，，，、、、、、、
+				\item : への変換: ：：：：：：：：：： 
+			\end{itemize}
+			セーブすると自動でインデントされるはずです。
+  \chapter{おわりに}
+    図の表示テストです。
+    
+    \bigskip
+
+		\includegraphics*[width=8cm]{./images/swissroll.eps}
+
+\end{document}
